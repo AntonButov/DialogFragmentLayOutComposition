@@ -1,4 +1,4 @@
-package org.mightyfrog.android.bottomsheetdialogfragmentsample
+package org.mightyfrog.android.customdialogfragmentsample
 
 import android.view.LayoutInflater
 import android.view.View

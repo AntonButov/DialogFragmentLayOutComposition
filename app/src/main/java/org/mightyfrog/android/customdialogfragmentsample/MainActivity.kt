@@ -1,4 +1,4 @@
-package org.mightyfrog.android.bottomsheetdialogfragmentsample
+package org.mightyfrog.android.customdialogfragmentsample
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
 
         fab.setOnClickListener {
-            BottomSheetDialog.newInstance().show(supportFragmentManager, "test")
+            DialogFragmentOne.newInstance().show(supportFragmentManager, "test")
         }
     }
 }
